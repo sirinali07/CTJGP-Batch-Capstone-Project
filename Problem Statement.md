@@ -108,7 +108,7 @@ Deploy and manage containers in a scalable and highly available environment.
 - Deployed the Flask application as:
   - A Kubernetes Pod
   - A NodePort Service for external access
-- Accessed the application using worker node public IP and NodePort
+- Accessed the application using worker node public IP(NodePort) OR LoadBalancer
 
 **Outcome:**
 - Scalable container orchestration
@@ -121,7 +121,7 @@ Deploy and manage containers in a scalable and highly available environment.
 
 - `/` – Welcome message  
 - `/v1/books/` – List all books  
-- `/v1/books/{author}` – Get books by author  
+
 
 ---
 
